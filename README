@@ -1,0 +1,24 @@
+The Ultimate Rubix Solver
+Author: James Foster
+Date: 20th April 2015
+
+This program solves a rubiks cube up to 11 moves. As long as you dont mind waiting a day
+for it to work. Jokes. Turns up to 7 will solve in a few seconds so no stress. Just give the SolveCube function the solvedStates, 
+an initial state such as '((3 4) (2 1) (7 2) (4 1) (1 4) (6 3) (5 2) (8 3)) and an index and 
+press go enter!
+
+To run:
+Testing done in gambit and on linux.
+To run the unit tests just enter ./UnitTests.sh.
+To run on gambit navigate to assignemt3.scm type (load "assignment3.scm") then enter the command such as:
+(solveCube solvedStates '((3 4) (2 1) (7 2) (4 1) (1 4) (6 3) (5 2) (8 3)) 0)
+
+Code explained in the commments "assignment3.scm"
+
+Files included:
+	"rubix.scm"
+	"UnitTests.sh"
+	"tests.scm"
+
+The unit tests are defined in "tests.scm"
+
